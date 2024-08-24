@@ -59,5 +59,26 @@ if aws:
         - Deployment and Automation (CloudFormation, CI/CD)
         """)
     st.subheader("Course Price")
-    st.write("₹7000")
+    st.write("₹4000")
+
+if ds:
+    st.header("Data Science")
+    st.subheader("Course Syllabus")
+    st.write("""
+        - Introduction to Data Science
+        - Python for Data Science
+        - Data Exploration and Visualization
+        - Statistics for Data Science
+        - Data Wrangling and Preprocessing
+        - Machine Learning Fundamentals
+        - Supervised and Unsupervised Learning
+        - Natural Language Processing (NLP)
+        - Time Series Analysis
+        - Big Data and Cloud Platforms
+        - Model Deployment and Monitoring
+        - Capstone Project
+        """)
+    st.subheader("Course Price")
+    st.write("₹9000")
+
 
