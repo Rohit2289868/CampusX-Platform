@@ -40,3 +40,24 @@ if dl:
         """)
     st.subheader("Course Price")
     st.write("₹8000")
+
+if aws:
+    st.header("AWS (Amazon Web Services)")
+    st.subheader("Course Syllabus")
+    st.write("""
+        - Introduction to Cloud Computing and AWS
+        - AWS Global Infrastructure Overview
+        - Identity and Access Management (IAM)
+        - Amazon EC2 and Elastic Load Balancing
+        - Amazon S3 and Storage Solutions
+        - AWS Networking (VPC, Route 53)
+        - AWS Databases (RDS, DynamoDB)
+        - AWS Lambda and Serverless Architecture
+        - Monitoring and Management (CloudWatch, CloudTrail)
+        - Security Best Practices and Compliance
+        - Cost Management and Optimization
+        - Deployment and Automation (CloudFormation, CI/CD)
+        """)
+    st.subheader("Course Price")
+    st.write("₹4000")
+
