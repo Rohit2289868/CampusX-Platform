@@ -8,6 +8,7 @@ dl = st.sidebar.button("Deep Learning")
 aws = st.sidebar.button("AWS")
 ds = st.sidebar.button("Data Science")
 da = st.sidebar.button("Data Analytics")
+bi = st.sidebar.button("PowerBI")
 
 if ml:
     st.header("Machine Learning")
@@ -80,5 +81,47 @@ if ds:
         """)
     st.subheader("Course Price")
     st.write("₹9000")
+
+if da:
+    st.header("Data Analyst")
+    st.subheader("Course Syllabus")
+    st.write("""
+        - Introduction to Data Analysis
+        - Excel for Data Analysis
+        - Data Visualization with Tableau and Power BI
+        - SQL for Data Querying and Analysis
+        - Data Cleaning and Preparation
+        - Exploratory Data Analysis (EDA)
+        - Descriptive and Inferential Statistics
+        - Building Dashboards and Reports
+        - A/B Testing and Experimentation
+        - Data-Driven Decision Making
+        - Business Intelligence Fundamentals
+        - Capstone Project
+        """)
+    st.subheader("Course Price")
+    st.write("₹6000")
+
+if bi:
+    st.header("Power BI")
+    st.subheader("Course Syllabus")
+    st.write("""
+        - Introduction to Power BI
+        - Getting Started with Power BI Desktop
+        - Connecting to Data Sources
+        - Data Transformation with Power Query
+        - Data Modeling and DAX (Data Analysis Expressions)
+        - Creating and Customizing Visuals
+        - Building Interactive Dashboards
+        - Advanced Data Analysis Techniques
+        - Power BI Service and Sharing Reports
+        - Power BI Mobile and Embedded Solutions
+        - Power BI Best Practices and Performance Optimization
+        - Real-World Case Studies and Projects
+        """)
+    st.subheader("Course Price")
+    st.write("₹5000")
+
+
 
 
